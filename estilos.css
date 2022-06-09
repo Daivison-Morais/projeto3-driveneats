@@ -1,10 +1,16 @@
 @media (max-width: 414px){
+    html{
+        width: 414px;
+    }
 body{
     margin:0;
     width: 0 auto;
     background-color: #E5E5E5;
     }
 .topo{
+    position: fixed;
+    top: 0px;
+    left: 0px;
     background-color: #CF2B2B;
     width: 100%;
     height: 92px;
@@ -45,8 +51,12 @@ body{
     font-weight: 400;
 
 }
+.seuprato{
+    margin-top: 92px;
+}
 
 .displayblocos{
+    z-index: 1;
     width: 100%;
     display: flex;
     overflow-x: scroll;
@@ -55,6 +65,7 @@ body{
     width: 100%;
     background-color: #FFFFFF;
     margin-left: 17.5px;
+    margin-bottom: 16px;
     font-family: 'Roboto', sans-serif;
     width: 172px;
     height: 216px;
@@ -97,6 +108,32 @@ body{
     width: 66px;
     height: 19px;
     margin-left: 14px;
+}
+.blocobotao{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 92px;
+}
+.caixabotao{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CBCBCB;
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.ultimobloco{
+    margin-bottom: 92px;
 }
 
 }
