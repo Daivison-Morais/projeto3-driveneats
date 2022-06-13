@@ -70,6 +70,3 @@ link ="https://wa.me/5591989391048?text=" + encodeURIComponent(mensagem);
 window.open(link);
     }
 }
-
-//const caixabotao = document.querySelector(".caixabotao");
-//caixabotao.innerHTML = "Pedido fechado";
