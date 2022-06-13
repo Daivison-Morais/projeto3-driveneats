@@ -124,9 +124,10 @@ body{
     font-size: 16px;
     width: 66px;
     height: 16px;
-    margin-left: 14px;
+    margin-top: 2px;
+    margin-left: 8px;
     margin-right: 90px;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     font-weight: 500;
    
 }
@@ -172,5 +173,9 @@ body{
 }
 .pedidofechado{
     background-color: #32B72F;
+}
+.displaypreco{
+    display: flex;
+    margin-left: 45px;
 }
 }
